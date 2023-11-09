@@ -1,0 +1,44 @@
+.project__container {
+  margin: auto;
+  margin-block: 3rem;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.project__container > h2 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.project__card_container {
+  margin-top: 0.25rem;
+  display: grid;
+  row-gap: 3rem;
+  column-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.project__card {
+  box-shadow: var(--shadow);
+  -webkit-box-shadow: var(--shadow);
+  -moz-box-shadow: var(--shadow);
+}
+
+.project__card_bottom_half {
+  padding: 0.5rem 1rem 2rem;
+}
+
+.project__card_bottom_half p {
+  color: rgb(60, 60, 60);
+}
+
+.project__card_title svg {
+  width: 24px;
+  margin-right: 0.5rem;
+}
+
+.project__card_title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}

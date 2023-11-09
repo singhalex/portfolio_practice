@@ -1,0 +1,41 @@
+.contact__background {
+  background-color: var(--mainBlue);
+}
+
+.contact__container {
+  margin: auto;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  color: white;
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.contact__title {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.contact__address {
+  margin-block: 1rem;
+}
+
+.contact__phone {
+  margin-bottom: 0.5rem;
+}
+
+.contact__container img {
+  max-width: 60%;
+  height: auto;
+}
+
+.contact__social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.contact__social svg {
+  width: 30px;
+}
