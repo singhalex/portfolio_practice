@@ -1,6 +1,7 @@
 .project__container {
   margin: auto;
-  margin-block: 3rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
   max-width: 1200px;
   padding: 2rem;
 }
