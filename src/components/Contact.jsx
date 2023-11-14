@@ -16,7 +16,9 @@ const Contact = () => {
             Random Town, California 12345
           </p>
           <p className="contact__phone">555-555-5555</p>
-          <p className="contact__email">notarealemail@notgmail.com</p>
+          <a href="mailto: singhkalex@gmail.com" className="contact__email">
+            <p>singhkalex@gmail.com</p>
+          </a>
           <div className="contact__social">
             {/* Github logo */}
             <svg viewBox="0 0 128 128">
