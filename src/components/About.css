@@ -74,7 +74,16 @@
 
 @media (max-width: 900px) {
   .about__background {
-    /* background-color: red; */
+    background-color: red;
+  }
+
+  .about__name {
+    top: 0;
+    right: -420px;
+  }
+
+  .about__title {
+    text-align: center;
   }
 }
 
