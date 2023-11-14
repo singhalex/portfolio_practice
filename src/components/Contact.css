@@ -26,6 +26,11 @@
   margin-bottom: 0.5rem;
 }
 
+.contact__email {
+  /* text-decoration: none; */
+  color: inherit;
+}
+
 .contact__container img {
   max-width: 60%;
   height: auto;
@@ -38,4 +43,30 @@
 }
 .contact__social svg {
   width: 30px;
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 420px) {
+  .contact__container {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .contact__social {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .contact__social svg {
+    width: 48px;
+  }
+
+  .contact__container img {
+    margin-top: 1rem;
+    max-width: none;
+    transform: scale(1.5);
+    width: 100%;
+  }
 }
