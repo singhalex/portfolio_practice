@@ -41,7 +41,7 @@ const projects = [
     screenshot:
       "https://user-images.githubusercontent.com/115970252/209237583-18d9f80c-3e40-43f3-bd09-1e64f152ca11.png",
     github: "https://github.com/singhalex/library-odin",
-    link: "https://www.theodinproject.com/lessons/node-path-javascript-library",
+    link: "https://singhalex.github.io/library-odin/",
   },
   {
     name: "Battleship",
@@ -50,7 +50,7 @@ const projects = [
     screenshot:
       "https://user-images.githubusercontent.com/115970252/282622813-69095d0a-1902-4da3-b78c-faa29fb74e07.png",
     github: "https://github.com/singhalex/battleship",
-    link: "https://www.google.com",
+    link: "https://singhalex.github.io/battleship/",
   },
 ];
 
