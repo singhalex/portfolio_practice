@@ -3,7 +3,7 @@
   margin-bottom: 3rem;
   margin-top: 1rem;
   max-width: 1200px;
-  padding: 2rem;
+  margin: var(--site-margin);
 }
 
 .project__container > h2 {

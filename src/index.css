@@ -84,4 +84,5 @@ select {
   --skew: 10deg;
   --mainBlue: #0891b2;
   --shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  --site-margin: 4rem;
 }

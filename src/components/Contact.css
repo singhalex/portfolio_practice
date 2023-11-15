@@ -4,7 +4,7 @@
 
 .contact__container {
   margin: auto;
-  padding: 3rem 2rem;
+  padding: 3rem var(--site-margin);
   max-width: 1200px;
   color: white;
   display: flex;
