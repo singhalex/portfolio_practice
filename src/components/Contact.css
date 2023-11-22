@@ -46,12 +46,18 @@
 }
 
 @media (max-width: 900px) {
+  .contact__container img {
+    aspect-ratio: 1/1.5;
+    max-width: 40%;
+    object-fit: cover;
+  }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 814px) {
   .contact__container {
     flex-direction: column;
     overflow: hidden;
+    padding-inline: var(--mobile-margin);
   }
 
   .contact__social {
@@ -61,12 +67,13 @@
 
   .contact__social svg {
     width: 48px;
+    margin-bottom: 2rem;
   }
 
   .contact__container img {
-    margin-top: 1rem;
-    max-width: none;
-    transform: scale(1.5);
-    width: 100%;
+    aspect-ratio: unset;
+    margin-bottom: -2rem;
+    max-width: 100%;
+    transform: scale(1.2);
   }
 }

@@ -1,9 +1,9 @@
 .project__container {
   margin: auto;
   margin-bottom: 3rem;
-  margin-top: 1rem;
+  margin-top: 4rem;
   max-width: 1200px;
-  margin: var(--site-margin);
+  padding-inline: var(--site-margin);
 }
 
 .project__container > h2 {
@@ -44,9 +44,10 @@
   margin-bottom: 0.25rem;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 560px) {
   .project__container {
-    margin-top: 0;
+    margin-top: 14rem;
+    padding-inline: 2rem;
   }
 
   .project__container > h2 {
